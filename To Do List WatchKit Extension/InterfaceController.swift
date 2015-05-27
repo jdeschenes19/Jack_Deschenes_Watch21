@@ -40,17 +40,13 @@ class InterfaceController: WKInterfaceController {
     
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
             
-        /* toDoList.removeAtIndex(rowIndex)
+        toDoList.removeAtIndex(rowIndex)
             
         defaults?.setObject(toDoList, forKey: "toDoList")
         
         defaults?.synchronize()
             
-        loadTableData() */
-        
-        let row = table.rowControllerAtIndex(rowIndex) as! tableRowController
-        
-        row.image.setImageNamed("checkbox.png")
+        loadTableData()
         
     }
 

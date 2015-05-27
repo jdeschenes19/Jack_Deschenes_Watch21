@@ -16,11 +16,15 @@
                                     <group key="rootItem" width="1" alignment="left" id="glx-eG-ZiG">
                                         <items>
                                             <label width="0.80000000000000004" height="1" alignment="left" text="Label" textAlignment="center" id="SZN-Yj-e5I"/>
-                                            <imageView width="0.20000000000000001" height="0.5" alignment="right" verticalAlignment="center" image="67563-Metal-White-And-Black-Square-Background.jpg" contentMode="scaleAspectFit" id="sWp-WZ-dmM"/>
+                                            <button width="0.20000000000000001" height="0.59999999999999998" alignment="center" verticalAlignment="center" backgroundImage="67563-Metal-White-And-Black-Square-Background.jpg" id="HAM-IW-fGv">
+                                                <connections>
+                                                    <action selector="buttonAction" destination="HdQ-ff-Par" id="Uye-Aw-0C6"/>
+                                                </connections>
+                                            </button>
                                         </items>
                                     </group>
                                     <connections>
-                                        <outlet property="image" destination="sWp-WZ-dmM" id="gVx-Qq-t6M"/>
+                                        <outlet property="button" destination="HAM-IW-fGv" id="g0U-hi-kmL"/>
                                         <outlet property="rowLabel" destination="SZN-Yj-e5I" id="qcW-eL-tkk"/>
                                     </connections>
                                 </tableRow>
