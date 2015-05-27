@@ -54,8 +54,6 @@ class FirstViewController: UIViewController, UITableViewDelegate {
             toDoListTable.reloadData()
         }
         
-        
-        
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -63,8 +61,6 @@ class FirstViewController: UIViewController, UITableViewDelegate {
         toDoListTable.reloadData()
         
     }
-    
-    
 
 }
 

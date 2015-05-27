@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
@@ -15,10 +15,12 @@
                                 <tableRow identifier="tableRowController" id="HdQ-ff-Par" customClass="tableRowController" customModule="To_Do_List_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="glx-eG-ZiG">
                                         <items>
-                                            <label width="1" height="1" alignment="left" text="Label" textAlignment="center" id="SZN-Yj-e5I"/>
+                                            <label width="0.80000000000000004" height="1" alignment="left" text="Label" textAlignment="center" id="SZN-Yj-e5I"/>
+                                            <imageView width="0.20000000000000001" height="0.5" alignment="right" verticalAlignment="center" image="67563-Metal-White-And-Black-Square-Background.jpg" contentMode="scaleAspectFit" id="sWp-WZ-dmM"/>
                                         </items>
                                     </group>
                                     <connections>
+                                        <outlet property="image" destination="sWp-WZ-dmM" id="gVx-Qq-t6M"/>
                                         <outlet property="rowLabel" destination="SZN-Yj-e5I" id="qcW-eL-tkk"/>
                                     </connections>
                                 </tableRow>

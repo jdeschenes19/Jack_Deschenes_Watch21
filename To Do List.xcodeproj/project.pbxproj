@@ -15,6 +15,8 @@
 		37242A3B1ADE15E40088BA18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37242A3A1ADE15E40088BA18 /* Images.xcassets */; };
 		37242A3E1ADE15E40088BA18 /* To Do List WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 37242A231ADE15E30088BA18 /* To Do List WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		37242A4C1ADE17930088BA18 /* tableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37242A4B1ADE17930088BA18 /* tableRowController.swift */; };
+		37F5A32D1B161BB400379349 /* 67563-Metal-White-And-Black-Square-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37F5A32C1B161BB400379349 /* 67563-Metal-White-And-Black-Square-Background.jpg */; };
+		37F5A32F1B161DA800379349 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F5A32E1B161DA800379349 /* checkbox.png */; };
 		C87EC9341A691C9D00653082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87EC9331A691C9D00653082 /* AppDelegate.swift */; };
 		C87EC9361A691C9D00653082 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87EC9351A691C9D00653082 /* FirstViewController.swift */; };
 		C87EC9381A691C9D00653082 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87EC9371A691C9D00653082 /* SecondViewController.swift */; };
@@ -76,6 +78,8 @@
 		37242A3A1ADE15E40088BA18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		37242A461ADE15EE0088BA18 /* To Do List WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "To Do List WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		37242A4B1ADE17930088BA18 /* tableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tableRowController.swift; path = ../tableRowController.swift; sourceTree = "<group>"; };
+		37F5A32C1B161BB400379349 /* 67563-Metal-White-And-Black-Square-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "67563-Metal-White-And-Black-Square-Background.jpg"; path = "../../67563-Metal-White-And-Black-Square-Background.jpg"; sourceTree = "<group>"; };
+		37F5A32E1B161DA800379349 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox.png; path = ../../checkbox.png; sourceTree = "<group>"; };
 		C87EC92E1A691C9D00653082 /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87EC9321A691C9D00653082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87EC9331A691C9D00653082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				37242A371ADE15E40088BA18 /* Interface.storyboard */,
+				37F5A32E1B161DA800379349 /* checkbox.png */,
+				37F5A32C1B161BB400379349 /* 67563-Metal-White-And-Black-Square-Background.jpg */,
 				37242A3A1ADE15E40088BA18 /* Images.xcassets */,
 				37242A351ADE15E40088BA18 /* Supporting Files */,
 			);
@@ -363,6 +369,8 @@
 			files = (
 				37242A391ADE15E40088BA18 /* Interface.storyboard in Resources */,
 				37242A3B1ADE15E40088BA18 /* Images.xcassets in Resources */,
+				37F5A32F1B161DA800379349 /* checkbox.png in Resources */,
+				37F5A32D1B161BB400379349 /* 67563-Metal-White-And-Black-Square-Background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,6 +699,7 @@
 				37242A411ADE15E40088BA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37242A421ADE15E40088BA18 /* Build configuration list for PBXNativeTarget "To Do List WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -699,6 +708,7 @@
 				37242A441ADE15E40088BA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C87EC9291A691C9D00653082 /* Build configuration list for PBXProject "To Do List" */ = {
 			isa = XCConfigurationList;

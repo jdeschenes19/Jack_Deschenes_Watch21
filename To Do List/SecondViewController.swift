@@ -16,7 +16,11 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func addItem(sender: AnyObject) {
         
-        toDoList.append(item.text)
+        if item.text != "" {
+        
+            toDoList.append(item.text)
+            
+        }
         
         item.text = ""
         
@@ -52,6 +56,5 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         
     }
     
-
 }
 
